@@ -1,0 +1,220 @@
+* {
+    /*outline: 1px solid red !important;*/
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0px 25px;
+    margin: auto;
+}
+
+.huddle-signup {
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    padding: 7px 40px;
+    color: hsl(322, 100%, 66%);
+    border: 1.5px solid hsl(322, 100%, 66%);
+    border-radius: 8px;
+    ;
+}
+
+.main-text-container {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-text-container h1 {
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.main-text-container p {
+
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+    color: gray;
+    padding-bottom: 40px;
+}
+
+.get-started {
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    padding: 25px 250px;
+    color: white;
+    background: rgb(195, 34, 162);
+    background: linear-gradient(0deg, rgba(195, 34, 162, 1) 0%, rgba(252, 113, 174, 1) 100%);
+    border: 1.5px solid hsl(322, 100%, 66%);
+    border-radius: 8px;
+}
+
+.main-img-container {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.sidebyside-containar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+
+
+.side-texts {
+    flex: 1;
+    padding: 30px;
+}
+
+.headline {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 29px 0;
+
+
+}
+
+.side-texts p {
+    font-size: 16px;
+    color: gray;
+
+}
+
+.side-img {
+    flex: 1;
+    padding: 30px;
+}
+
+.side-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.above-footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px 0px;
+}
+
+.above-footer-container h1 {
+    padding: 60px;
+    font-size: 48px;
+}
+
+.social-medias {
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    background: url("images/bg-footer-desktop.png") no-repeat center bottom #00252e;
+    background-size: contain;
+    color: white;
+}
+
+.upside {
+    display: flex;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+
+
+.upside .upsidebox {
+    flex: 1
+}
+
+.upside .upsidebox.upside-first .upside-text {
+    margin: 25px 0px;
+}
+
+.upside .upsidebox.upside-middle {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+
+}
+
+
+.upside .upsidebox.upside-middle div {
+    width: 50%;
+    margin: 20px 0;
+    text-align: center;
+
+}
+
+.downside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.upside .upsidebox.upside-right {
+    margin: 20px;
+}
+
+.subscribe {
+    font-size: 24px;
+    margin-bottom: 29px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-form input {
+    padding: 8px 16px;
+    margin: 0px;
+    outline: none;
+    width: 100%;
+    border-radius: 4px 0 0 4px;
+    border: none;
+}
+
+
+
+.formbutton {
+    font-size: 16px;
+    padding: 14px 20px;
+    margin: 0px;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    background: rgb(195, 34, 162);
+    background: linear-gradient(0deg, rgba(195, 34, 162, 1) 0%, rgba(252, 113, 174, 1) 100%);
+
+}
