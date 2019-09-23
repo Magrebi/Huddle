@@ -1,3 +1,7 @@
+* {
+    /*outline: 1px solid red !important;*/
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.4;
@@ -133,10 +137,14 @@ a {
     font-size: 40px;
 }
 
+footer {
+    background: url("images/bg-footer-desktop.png") no-repeat center bottom #00252e;
+    background-size: contain;
+    color: white;
+}
 
 .upside {
     display: flex;
-    flex-direction: column;
     padding-top: 140px;
     padding-bottom: 140px;
 }
@@ -144,7 +152,7 @@ a {
 
 
 .upside .upsidebox {
-    width: 100%;
+    flex: 1
 }
 
 .upside .upsidebox.upside-first .upside-text {
@@ -152,16 +160,19 @@ a {
 }
 
 .upside .upsidebox.upside-middle {
-    width: 100%;
+    flex: 2;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+
 
 }
+
 
 .upside .upsidebox.upside-middle div {
     width: 50%;
     margin: 20px 0;
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -173,8 +184,7 @@ a {
 }
 
 .upside .upsidebox.upside-right {
-    width: 100%;
-
+    margin: 20px;
 }
 
 .subscribe {
@@ -207,6 +217,7 @@ a {
     background: rgb(195, 34, 162);
     background: linear-gradient(0deg, rgba(195, 34, 162, 1) 0%, rgba(252, 113, 174, 1) 100%);
 
+<<<<<<< HEAD
 }
 
 @media only screen and (max-width: 600px) {
@@ -419,4 +430,6 @@ a {
         background: linear-gradient(0deg, rgba(195, 34, 162, 1) 0%, rgba(252, 113, 174, 1) 100%);
 
     }
+=======
+>>>>>>> parent of 9118c97... mobile process
 }
